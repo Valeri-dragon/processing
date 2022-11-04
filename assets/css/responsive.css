@@ -93,6 +93,13 @@
   .form-order .btn {
     margin-top: 20px;
   }
+    /*price*/
+  .table__price .tittle__body {
+  
+    font-size: 10px;
+    line-height: 16px;
+  
+}
   /*delevery*/
   .section__calc,
   .section-data,
