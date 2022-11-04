@@ -49,14 +49,14 @@
     width: 30px;
     height: 30px;
     display: block;
-    background: url(/assets/img/mob_menu.svg) no-repeat;
+    background: url(./assets/img/mob_menu.svg) no-repeat;
     background-size: cover;
   }
   .btn__m-menu-active {
     width: 30px;
     height: 30px;
     display: block;
-    background: url(/assets/img/close_m_menu.svg) no-repeat;
+    background: url(./assets/img/close_m_menu.svg) no-repeat;
     background-size: cover;
   }
   .links.menu__list {
