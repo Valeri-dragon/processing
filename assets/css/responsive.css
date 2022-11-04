@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+  .container {
+    width: 650px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mob-column {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mob-row {
+    flex-direction: row;
+  }
+  .cover {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    /* padding: 20%; */
+    background: #fff9f95e;
+    z-index: 1;
+  }
+  .section {
+  width: 100%;
+  margin: 45px 0 50px;
+}
+  /*header*/
+  .header-contacts {
+    flex-wrap: wrap;
+  }
+  .box-btn {
+    display: block;
+    margin-left: auto;
+  }
+  .menu {
+    position: relative;
+    z-index: 10;
+  }
+  .btn__mob-menu {
+    position: relative;
+  }
+  .btn__mob-menu {
+    z-index: 10;
+  }
+  .btn__m-menu {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(/assets/img/mob_menu.svg) no-repeat;
+    background-size: cover;
+  }
+  .btn__m-menu-active {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(/assets/img/close_m_menu.svg) no-repeat;
+    background-size: cover;
+  }
+  .links.menu__list {
+    width: 80%;
+    position: absolute;
+    left: 56px;
+    top: 50px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #ffffff;
+    padding: 9px 25px 35% 15px;
+  }
+  .links.menu__list.is-open__mob-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .links__item {
+    margin-bottom: 25px;
+  }
+  ul li.links__item:hover > ul,
+  ul li ul.submenu:hover {
+    z-index: 1;
+    padding: 0 25px;
+    top: auto;
+  }
+  /*main*/
+  .form-order.mob-column {
+    align-items: flex-start;
+  }
+  .form-order .btn {
+    margin-top: 20px;
+  }
+  /*delevery*/
+  .section__calc,
+  .section-data,
+  #delivery form .form-control__form-order {
+    width: 100%;
+    margin-left: 0;
+  }
+  .subtittle-section__calc {
+    width: 450px;
+  }
+  .block-card {
+    margin-bottom: 31px;
+  }
+  .card-advantages {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  /*partners*/
+  .img-partners {
+    margin-bottom: 30px;
+}
+  /*certif*/
+  .sliders__sertificat .section-tittle {
+    margin-bottom: 78px;
+  }
+  .img-certificates {
+    width: 217px;
+  }
+  .sliders__sertificat .swiper-wrapper {
+    width: 150%;
+  }
+  .conteiner-btn-slider {
+    top: 43px;
+  }
+  /*feedback*/
+  .descrip-feedback {
+    width: 261px;
+  }
+  /*questions*/
+  #questions .column {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+/*footer*/
+footer .column{
+  margin-bottom: 30px;
+}
+.copyrite {
+    margin-top: 8px;
+}
+.link-phone-footer {
+ 
+    line-height: 5px;
+}
+.tittle-footer,
+.link-phone-footer{
+  text-align: left;
+}
+}
