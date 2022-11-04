@@ -504,6 +504,7 @@ td:last-child {
   background: #ffffff;
   padding: 20px;
   align-items: flex-start;
+  height: 158px;
 }
 .card-advantages:not(:last-child) {
   margin-right: 30px;
