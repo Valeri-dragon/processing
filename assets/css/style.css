@@ -328,9 +328,12 @@ input[type="checkbox"]:checked + label:after {
   transform: rotate(-45deg);
 }
 /*section-price*/
+table{
+ border-collapse: collapse;
+}
 .table__price {
   width: 100%;
-  border-collapse: collapse;
+ 
   margin-top: 48px;
 }
 tbody {
@@ -342,8 +345,18 @@ tbody {
   line-height: 16px;
   color: #ffffff;
 }
+tbody:after {
+    display: block;
+    content: " ";
+    padding-bottom: 20px;
+}
+.dt{
+  
+  width:100%;
+  margin_top: 20px;
+}
 .table__price .tittle__body th {
-  padding: 19px 0 17px 21px;
+  padding: 19px 0px 17px 0px;
 }
 
 .sort__title {
@@ -354,6 +367,7 @@ tbody {
   line-height: 29px;
   border: none;
   color: #ffffff;
+      padding-right: 45px;
 }
 .sort__title span {
   position: absolute;
@@ -361,10 +375,8 @@ tbody {
   left: 0;
   padding: 16px 0px 0px 48px;
 }
-.border-top {
-  border-top: 20px solid #ffffff;
-}
-.table__price tbody {
+
+ tbody {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -372,7 +384,7 @@ tbody {
 }
 
 .class__toplivo {
-  padding: 30px 0 95px 16px;
+    padding: 18px 0 28px 41px;
   border-top: 1px solid #e7e7e7;
   border-right: 1px solid #e7e7e7;
 }
