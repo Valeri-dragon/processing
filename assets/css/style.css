@@ -44,22 +44,22 @@ input:focus-visible {
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Bold.ttf") format("ttf");
+  src: url("./fonts/Montserrat-Bold.ttf") format("ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("ttf");
+  src: url("./fonts/Montserrat-SemiBold.ttf") format("ttf");
   font-weight: 600;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Medium.ttf") format("ttf");
+  src: url("./fonts/Montserrat-Medium.ttf") format("ttf");
   font-weight: 500;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Regular.ttf") format("ttf");
+  src: url("./fonts/Montserrat-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: 400;
 }
@@ -465,7 +465,7 @@ td:last-child {
 }
 .time-active {
   padding-bottom: 17px;
-  background: url(/assets/img/arrow_cards.svg) no-repeat;
+  background: url(./img/arrow_cards.svg) no-repeat;
   background-position: bottom;
 }
 .tittle-block-card {
